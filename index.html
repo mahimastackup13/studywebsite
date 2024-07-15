@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="responsive.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
@@ -22,50 +23,52 @@
   </head>
   <body>
     <!--ROW_1-->
-    <div class="bg-hero-section">
-      <header>
-        <div class="contaniner">
-          <div class="main-navbar">
-            <h3>Brandname</h3>
-            <div class="navbar">
-              <ul class="nav-list">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Product</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-              <div class="nav-action">
-                <button type="button" class="nav-btn">Login</button>
-                <button type="button" class="main-btn">
-                  Join Us
-                  <i class="fa-solid fa-arrow-right" style="color: #fafafa"></i>
-                </button>
-              </div>
+
+    <header class="bg-hero-section">
+      <div class="contaniner">
+        <div class="main-navbar screen-gap">
+          <h3>Brandname</h3>
+          <div class="navbar">
+            <ul class="nav-list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="nav-action">
+              <button class="button nav-btn">Login</button>
+              <button  class="button main-btn">
+                Join Us
+                <i class="fa-solid fa-arrow-right" style="color: #fafafa"></i>
+              </button>
             </div>
           </div>
         </div>
-      </header>
-      <div class="contaniner">
+      </div>
+    </header>
+
+    <div class="bg-hero-section">
+      <div class="hero-container">
         <div class="content">
           <div class="course_content">
             <h5>For Better Future</h5>
             <h1>HIGH QUALITY COURSES</h1>
             <p>
-              Find the right instructor for you from<br />
+              Find the right instructor for you from
               over 10,000 teachers
             </p>
             <div class="brand-btn">
-              <button type="button" class="fill-btn">Get Quote Now</button>
-              <button type="button" class="trans-btn">Learn More</button>
+              <button  class="button fill-btn">Get Quote Now</button>
+              <button class="button trans-btn">Learn More</button>
             </div>
           </div>
-          <div class="couse _image">
+          <div class="course_image">
             <img src="images/hero-cover-1 (1).png" />
           </div>
         </div>
       </div>
     </div>
-    <!--ROW_2-->
+    <!---------ROW_2---------->
     <section class="section">
       <div class="contaniner">
         <div class="course-section row-gap">
@@ -86,7 +89,7 @@
               <div class="line"></div>
               <p>The gradual accumulation of information about</p>
             </div>
-            <div class="lower_card">
+            <div class="upper_card">
               <div class="lower_card_icon">
                 <img src="images/1/icon cool-icon-n20.png" />
               </div>
@@ -102,7 +105,7 @@
               <div class="line"></div>
               <p>The gradual information about atomic behaviour...</p>
             </div>
-            <div class="lower_card">
+            <div class="upper_card">
               <div class="lower_card_icon">
                 <span class="material-symbols-outlined"> backpack </span>
               </div>
@@ -116,8 +119,8 @@
     </section>
     <!--ROW_3-->
     <section class="section row-gap">
-      <div class="contaniner">
-        <div class="Teacher-section row-gap">
+      <div class="contaniner screen-gap">
+        <div class="Teacher-section">
           <div class="title">
             <h6>Practice Advice</h6>
             <h2>Our Experts Teacher</h2>
@@ -129,7 +132,7 @@
           <div class="cart-cards">
             <div class="cartcard">
               <div class="image">
-                <img src="images/1/pencil.png" style="width: 100%" />
+                <img class="img" src="images/1/pencil.png" style="width: 100% " />
                 <div class="cart-btns">
                   <button class="round-btn">
                     <span class="material-symbols-outlined"> favorite </span>
@@ -163,7 +166,7 @@
                 <div class="rate">
                   <h5><span class="rate-1">$16.48 </span><span>$6.48</span></h5>
                 </div>
-                <button class="cart-button">
+                <button class="button cart-button">
                   Learn More<span class="material-symbols-outlined">
                     chevron_right
                   </span>
@@ -172,7 +175,7 @@
             </div>
             <div class="cartcard">
               <div class="image">
-                <img src="images/1/1box.png" style="width: 100%" />
+                <img class="img" src="images/1/1box.png" style="width: 100%" />
                 <div class="cart-btns">
                   <button class="round-btn">
                     <span class="material-symbols-outlined"> favorite </span>
@@ -206,7 +209,7 @@
                 <div class="rate">
                   <h5><span class="rate-1">$16.48 </span><span>$6.48</span></h5>
                 </div>
-                <button class="cart-button">
+                <button class="button cart-button ">
                   Learn More<span class="material-symbols-outlined">
                     chevron_right
                   </span>
@@ -215,7 +218,7 @@
             </div>
             <div class="cartcard">
               <div class="image">
-                <img src="images/1/books.png" style="width: 100%" />
+                <img  class="img" src="images/1/books.png" style="width: 100%" />
                 <div class="cart-btns">
                   <button class="round-btn">
                     <span class="material-symbols-outlined"> favorite </span>
@@ -251,7 +254,7 @@
                     <span class="rate-1">$16.48 </span> <span>$6.48</span>
                   </h5>
                 </div>
-                <button class="cart-button">
+                <button class="button cart-button ">
                   Learn More<span class="material-symbols-outlined">
                     chevron_right
                   </span>
@@ -260,7 +263,7 @@
             </div>
             <div class="cartcard">
               <div class="image">
-                <img src="images/1/1/orange.png" style="width: 100%" />
+                <img  class="img" src="images/1/1/orange.png" style="width: 100%" />
                 <div class="cart-btns">
                   <button class="round-btn">
                     <span class="material-symbols-outlined"> favorite </span>
@@ -294,7 +297,7 @@
                 <div class="rate">
                   <h5><span class="rate-1">$16.48 </span><span>$6.48</span></h5>
                 </div>
-                <button class="cart-button">
+                <button class="button cart-button ">
                   Learn More<span class="material-symbols-outlined">
                     chevron_right
                   </span>
@@ -403,7 +406,7 @@
                 </div>
               </div>
             </div>
-            <div class="rate-card">
+            <div class="rate-card position-relative">
               <div class="new"><button class="newbtn">NEW</button></div>
               <button class="Cbtn">
                 <i class="fa-solid fa-heart" style="color: #fcfcfd"></i>
@@ -528,7 +531,7 @@
     </section>
     <!--ROW6-->
     <section class="section">
-      <div class="contaniner row-gap">
+      <div class="contaniner row-gap screen-gap">
         <div class="title" .row-gap>
           <h6>Testimonials</h6>
           <h2>Approdable Packages</h2>
@@ -551,12 +554,13 @@
               ><i class="fa-solid fa-star" style="color: #ffd43b"></i
               ><i class="fa-regular fa-star" style="color: #ffd43b"></i>
             </div>
+
             <div class="Teacher">
               <h5>Regina Miles</h5>
               <h6>Designer</h6>
             </div>
           </div>
-          <div class="col-rating">
+          <div class="col-ratings">
             <img src="images/1/1/1/circle sec-.png" />
             <p>
               Slate helps you see how many more days you need to work to reach
@@ -600,7 +604,7 @@
     </div>
     <!--ROW8-->
     <footer class="main-footer">
-      <div class="contaniner row-gap">
+      <div class="contaniner row-gap screen-gap">
         <div class="footer">
           <div class="footer-links">
             <div class="footer-grid">
@@ -644,7 +648,7 @@
               <h5>Get In Touch</h5>
               <div class="links">
                 <div class="link-directn">
-                  <a href="#"
+                  <a href="tel:(480)555-0103"
                     ><span class="material-symbols-outlined"> call </span>(480)
                     555-0103</a
                   >
@@ -656,7 +660,7 @@
                     >
                   </div>
 
-                  <a href="#"
+                  <a href="mailto:debra.holt@example.com"
                     ><span class="material-symbols-outlined"> mail </span
                     >debra.holt@example.com</a
                   >
@@ -670,18 +674,21 @@
       <!--END-->
       <section class="end-section">
         <div class="bg-hero-section">
-          <div class="contaniner">
+          <div class="contaniner screen-gap">
             <div class="end">
               <h6>Made With Love By Figmaland All Right Reserved</h6>
 
               <div class="s-media">
-               <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook media"></i></a> 
-                  
-                </i>
-                <a href="https://www.instagram.com/">
-                <i class="fa-brands fa-instagram media"></i></a>
-                <a href="https://x.com/?lang=en">
-                <i class="fa-brands fa-twitter media"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"
+                  ><i class="fa-brands fa-facebook media"></i
+                ></a>
+
+                <a href="https://www.instagram.com/" target="_blank">
+                  <i class="fa-brands fa-instagram media"></i
+                ></a>
+                <a href="https://x.com/?lang=en" target="_blank">
+                  <i class="fa-brands fa-twitter media"></i
+                ></a>
               </div>
             </div>
           </div>

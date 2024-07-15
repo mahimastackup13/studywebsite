@@ -1,0 +1,264 @@
+@media screen and (max-width: 1245px) {
+  /* *{
+        overflow: hidden;
+    }*/
+  .course_image {
+    display: none;
+  }
+
+  .course_content {
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+  }
+
+  .content {
+    align-items: center;
+  }
+
+  .course_content p {
+    text-align: center;
+  }
+
+  .title {
+    align-items: center;
+  }
+
+  .title p {
+    text-align: center;
+  }
+
+  .course-cards {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1078px) {
+  .course-cards {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+
+  .upper_card {
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .course-cards p {
+    text-align: center;
+    max-width: 200px;
+  }
+
+  .cart-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .details {
+    align-items: center;
+  }
+
+  .details p {
+    text-align: center;
+  }
+
+  .login-title h2 {
+    width: 150%;
+    /*max-width: 100%;*/
+  }
+
+  .login-title p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-links {
+    width: 100%;
+  }
+
+  .promo-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-links {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .promo-details h2 {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    width: 106%;
+  }
+
+  .promo-details p {
+    align-items: center;
+    text-align: center;
+  }
+
+  .promo-details {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .promo-details h2 {
+    width: 160%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .main-navbar .navbar ul {
+    display: none;
+  }
+
+  .main-navbar {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .main-navbar .navbar {
+    width: auto;
+  }
+  .nav-btn{
+    display: none;
+  }
+
+  .course_content h1 {
+    text-align: center;
+  }
+
+  .course-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .cart-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .ratecards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .rate-card h6 {
+    text-align: center;
+  }
+
+  .ratecards .rate-card {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .new {
+    display: none;
+  }
+
+  .promo-image {
+    display: none;
+  }
+
+  .detail-ratings {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .footer-links {
+    row-gap: 30px;
+  }
+}
+@media screen and (max-width: 600px){
+    .footer-links {
+        grid-template-columns: repeat(2, 1fr)
+    }
+    .end{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+    }
+
+}
+@media screen and (max-width: 400px){
+  .course_content h1{
+    font-size: 55px;
+  }
+  .title h2{
+    font-size: 38px;
+  }
+  .promo-details h2{
+    font-size: 38px;
+  }
+  .rates h2{
+    font-size: 38px;
+  }
+  .login-title h2{
+    font: size 40px; ;
+  }
+  .main-navbar {
+    font-size: 22px;
+    
+  }
+  .main-navbar {
+    font-size: 22px;
+  }
+  .rate h3{
+    font-size: 22px  
+  }
+  .rate-card h3{
+    font-size: 22px;
+  }
+  .course_content h5{
+    font-size: 13px;
+  }
+  .lower_card h5{
+    font-size: 13px;
+  }
+  .upper_card h5{
+    font-size: 13px;
+  }
+  .details h5{
+    font-size: 13px;
+  
+  }
+  .teacher h5{
+    font-size: 13px;
+
+  }
+  .footer-grid h5 {
+    font-size: 13px;
+
+  }
+  
+  .title h6{
+    font-size: 12px;
+  }
+  .label h6{
+    font-size: 12px;
+  }
+  .titlename h6{
+    font-size: 12px;
+  }
+  .details h6{
+    font-size: 12px;
+  }
+  .rate-card h6{
+    font-size: 12px;
+  }
+  .active h6{
+    font-size: 12px;
+  }
+  .active_non_active_updates h6{
+    font-size: 12px;
+  }
+  .login-title h6{
+    font-size: 12px;
+  }
+  .end h6{
+    font-size: 12px;
+  }
+  
+
+}
