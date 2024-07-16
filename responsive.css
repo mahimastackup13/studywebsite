@@ -1,4 +1,5 @@
 @media screen and (max-width: 1245px) {
+
   /* *{
         overflow: hidden;
     }*/
@@ -25,8 +26,13 @@
     align-items: center;
   }
 
+  .title h2 {
+    text-align: center;
+  }
+
   .title p {
     text-align: center;
+    width: 80%;
   }
 
   .course-cards {
@@ -45,7 +51,15 @@
     justify-content: center;
     align-items: center;
   }
-
+  .ratecards{
+    
+  
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .ratecards .rate-card{
+    align-items: center;
+    text-align: center;
+  }
   .course-cards p {
     text-align: center;
     max-width: 200px;
@@ -64,12 +78,12 @@
   }
 
   .login-title h2 {
-    width: 150%;
+    width: 100%;
     /*max-width: 100%;*/
   }
 
   .login-title p {
-    width: 100%;
+    width: 70%;
     text-align: center;
   }
 
@@ -83,29 +97,34 @@
   }
 
   .footer-links {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+
   }
 
   .promo-details h2 {
-    align-items: center;
     display: flex;
     text-align: center;
-    width: 106%;
+    width: 50%;
+    align-items: self-start;
+    justify-content: center;
   }
 
   .promo-details p {
     align-items: center;
     text-align: center;
+    width: 50%;
   }
 
   .promo-details {
     align-items: center;
+    /*  width: 80%;*/
   }
 }
 
 @media screen and (max-width: 800px) {
   .promo-details h2 {
-    width: 160%;
+    width: 100%;
     text-align: center;
     align-items: center;
   }
@@ -122,7 +141,8 @@
   .main-navbar .navbar {
     width: auto;
   }
-  .nav-btn{
+
+  .nav-btn {
     display: none;
   }
 
@@ -145,6 +165,8 @@
 
   .rate-card h6 {
     text-align: center;
+    max-width: 100%;
+
   }
 
   .ratecards .rate-card {
@@ -168,97 +190,188 @@
     row-gap: 30px;
   }
 }
-@media screen and (max-width: 600px){
-    .footer-links {
-        grid-template-columns: repeat(2, 1fr)
-    }
-    .end{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-        text-align: center;
-    }
+
+@media screen and (max-width: 600px) {
+  .footer-links {
+    grid-template-columns: repeat(2, 1fr)
+  }
+  .promo-details p{
+    width: 70%;
+  }
+
+  .end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .button {
+    padding: 14px 21px;
+    font-size: 12px;
+  }
+
+  form {
+    width: 80%;
+  }
+
+  .rate-card p {
+    text-align: center;
+  }
+
 
 }
-@media screen and (max-width: 400px){
-  .course_content h1{
-    font-size: 55px;
-  }
-  .title h2{
-    font-size: 38px;
+
+@media screen and (max-width: 400px) {
+  .course_content h1 {
+    font-size: 35px;
   }
   .promo-details h2{
+    font-size: 35px;
+  }
+
+  .title h2 {
     font-size: 38px;
   }
-  .rates h2{
+
+  .promo-details h2 {
     font-size: 38px;
   }
-  .login-title h2{
-    font: size 40px; ;
+
+  .rates h2 {
+    font-size: 38px;
   }
+
+  .login-title h2 {
+    font: size 40px;
+    ;
+  }
+
   .main-navbar {
     font-size: 22px;
-    
+
   }
+
   .main-navbar {
     font-size: 22px;
   }
-  .rate h3{
-    font-size: 22px  
+
+  .rate h3 {
+    font-size: 22px
   }
-  .rate-card h3{
+
+  .rate-card h3 {
     font-size: 22px;
   }
-  .course_content h5{
+
+  .course_content h5 {
     font-size: 13px;
   }
-  .lower_card h5{
+
+  .lower_card h5 {
     font-size: 13px;
   }
-  .upper_card h5{
+
+  .upper_card h5 {
     font-size: 13px;
   }
-  .details h5{
-    font-size: 13px;
-  
-  }
-  .teacher h5{
+
+  .details h5 {
     font-size: 13px;
 
   }
+
+  .teacher h5 {
+    font-size: 13px;
+
+  }
+
   .footer-grid h5 {
     font-size: 13px;
 
   }
-  
-  .title h6{
+
+  .button {
+    padding: 12px 18px;
+    font-size: 10px;
+  }
+
+
+  .title h6 {
     font-size: 12px;
   }
-  .label h6{
+
+  .label h6 {
     font-size: 12px;
   }
-  .titlename h6{
+
+  .titlename h6 {
     font-size: 12px;
   }
-  .details h6{
+
+  .details h6 {
     font-size: 12px;
   }
-  .rate-card h6{
+
+  .rate-card h6 {
     font-size: 12px;
   }
-  .active h6{
+
+  .active h6 {
     font-size: 12px;
   }
-  .active_non_active_updates h6{
+
+  .active_non_active_updates h6 {
     font-size: 12px;
   }
-  .login-title h6{
+
+  .login-title h6 {
     font-size: 12px;
   }
-  .end h6{
+
+  .end h6 {
     font-size: 12px;
   }
-  
+
+  .footer-links {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .login-title h2 {
+    font-size: 35px;
+  }
+
+  .login-title p {
+    font-size: 12px;
+  }
+  .title p {
+    font-size: 12px;
+  }
+  .course_content p{
+    font-size: 15px;
+  }
+  .course-cards p {
+    font-size: 12px;
+  }
+  .details p{
+    font-size: 12px;
+
+  }
+  .promo-details p{
+    font-size: 12px;
+    width: 80%;
+  }
+  .rate-card p{
+    font-size: 12px;
+
+  }
+  .detail-ratings p{
+    font-size: 12px;
+
+  }
+
 
 }
+
+  @media screen and (max-width: 400px) {}

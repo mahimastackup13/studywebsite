@@ -208,10 +208,8 @@ body {
 .brand-btn {
   display: flex;
   gap: 10px;
-  align-items: flex-start;
-
-  /* justify-content: center;*/
   width: 70%;
+  justify-content: center;
 }
 
 .fill-btn {
@@ -629,8 +627,8 @@ body {
 }
 
 .promo-details {
-  padding: 31px 52px;
-  width: 50%;
+  /* padding: 31px 52px; */
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -863,7 +861,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px 111px;
+  padding: 0px;
   text-align: center;
   gap: 10px;
   margin: 0;
@@ -873,22 +871,8 @@ body {
   font-size: 14px;
   font-weight: 400;
   color: var(--fourth-color);
-  max-width: 85%;
+  width: 50%;
 }
-
-.col-ratings
- {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 111px;
-  text-align: center;
-  gap: 10px;
-  margin: 0;
-  /*swidth: 50%;*/
-}
-
 .teacher h5 {
   height: 0px;
   margin: 0;
@@ -903,7 +887,9 @@ body {
   justify-content: center;
   width: 100%;
   /*gap: 30px;*/
-  /* padding-bottom: 100px;*/
+  padding-bottom: 50px;
+  row-gap: 30px;
+  
 }
 
 .login-title {
@@ -911,16 +897,18 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 45px 378px;
+ /* padding: 45px 378px;*/
   text-align: center;
   gap: 10px;
-  padding: 70px 0px 100px 0px;
+  /*padding: 70px 0px 100px 0px;*/
   /* margin-bottom: 50px;*/
   display: flex;
   flex-direction: column;
   gap: 15px;
   justify-content: space-between;
-  width: 50%;
+  width: 100%;
+  padding: 0px;
+
 }
 
 .login-title h6 {
@@ -945,8 +933,7 @@ body {
   font-weight: 300;
   padding: 0px 0px;
   margin: 0;
-  max-width: 90%;
-  width: 60%;
+  width: 50%;
   text-align: center;
 }
 
@@ -1038,10 +1025,10 @@ input {
   font-size: x-large;
 }
 
-.link-directn .add {
+/* .link-directn .add {
   padding: 0px 0px;
   margin-right: -43px;
-}
+} */
 
 .end {
   display: flex;
@@ -1072,8 +1059,8 @@ input {
 }
 
 .row-gap {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .align-center {
