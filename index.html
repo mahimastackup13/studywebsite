@@ -27,13 +27,43 @@
     <header class="bg-hero-section">
       <div class="contaniner">
         <div class="main-navbar screen-gap">
-          <h3>Brandname</h3>
+          <!-------hamburger-------->
+         <div class="ham-box">
+          <input type="checkbox" id="ham">
+
+         </div>
+        
+
+          <div class="brandname"> 
+            <h3>Brandname</h3>
+          </div>
+          
           <div class="navbar">
             <ul class="nav-list">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Product</a></li>
-              <li><a href="#">Pricing</a></li>
-              <li><a href="#">Contact</a></li>
+                <li><a class="nav-link  list" href="#">Home</a></li>
+                <li> <a class="nav-link list list-dp" href="#">Product
+                  <i class="fa-solid fa-caret-down "></i></a>
+                   <ul class="f-dp-itm">
+                    <li><a class="f-item">Product 1</a></li>
+                    <li><a class="f-item list-s-dp">Product 2
+                      <i class="fa-solid fa-caret-down "></i></a>
+                        <ul class="s-dp-itm">
+                          <li><a class="s-item">Product 1</a></li>
+                          <li><a class="s-item">Product 2</a></li>
+                          <li><a class="s-item">Product 3</a></li>
+                          <li><a class="s-item">Product 4</a></li>
+                        </ul>
+                    
+                    
+                    </li>
+                    <li><a class="f-item">Product 3</a></li>
+                    <li><a class="f-item">Product 4</a></li>
+                   </ul>
+                   </li>
+                    
+                           
+                <li><a class="nav-link list" href="#">Pricing</a></li>
+                <li><a class="nav-link list" href="#">Contact</a></li>
             </ul>
             <div class="nav-action">
               <button class="button nav-btn">Login</button>

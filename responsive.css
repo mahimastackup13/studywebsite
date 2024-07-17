@@ -45,6 +45,16 @@
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
   }
+  .new {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: -12px 0px;
+    align-items: end;
+    position: absolute;
+    top: -40px;
+    right: 16px;
+  }
 
   .upper_card {
     align-content: center;
@@ -121,7 +131,15 @@
     /*  width: 80%;*/
   }
 }
-
+@media screen and (max-width: 915px){
+  .nav-list{
+    display: none;
+  }
+  .nav-btn{
+    display: none;
+  }
+  
+}
 @media screen and (max-width: 800px) {
   .promo-details h2 {
     width: 100%;
