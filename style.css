@@ -344,7 +344,10 @@ body {
   padding: 0;
   margin: 0;
   flex-direction: column;
-  background:var(--seventh-color);
+  /* background:var(--seventh-color); */
+  /* background: #86bbe1;
+  background: #eb4b37; */
+  background: #eb4b37;
   border: 1px solid #ccc;
   position: absolute;
   top: 40px;
@@ -388,7 +391,9 @@ body {
   margin: 0;
   display: none;
   flex-direction: column;
-  background: #e9e9e9;
+  /* background: #e9e9e9; */
+  /* background: #3686c1; */
+  background: #cf5151;
   border: 1px solid #ccc;
   margin-left: 20px;
 }
@@ -415,7 +420,8 @@ body {
 .ham-btn {
   padding: 10px;
   border: none;
-  background: #007BFF;
+  /* background: #007BFF; */
+  background: #5e1106;
   color: white;
   cursor: pointer;
   margin: 10px;
