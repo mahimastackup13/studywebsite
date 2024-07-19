@@ -28,15 +28,42 @@
       <div class="contaniner">
         <div class="main-navbar screen-gap">
           <!-------hamburger-------->
-         <div class="ham-box">
-          <input type="checkbox" id="ham">
-
-         </div>
-        
-
-          <div class="brandname"> 
+         <div class="brandname"> 
+          <div class="hamburger-box">
+            <input type="checkbox" id="ham">
+            <label for="ham" class="hamburger">
+              <i class="fa-solid fa-bars ham-atv ham-icn-size"></i>
+                <i class="fa-solid fa-xmark ham-icn-size  ham-n-atv"></i>
+            </label>
+            <ul class="ham-items">
+              <li><a href="#">Home</a></li>
+              <li>
+                <input type="checkbox" id="sub-ham">
+                <label for="sub-ham" class="ham-lab">Product
+                  <i class="fa-solid fa-caret-down"></i>
+                </label>
+                <ul class="sub-ham-items">
+                  <li><a href="#">Product</a></li>
+                  
+                    <!-- <input type="checkbox" id="sub-sub-ham">
+                    <label for="sub-sub-ham" class="sub-ham-lab">Product
+                      <i class="fa-solid fa-caret-down"></i>
+                    </label> -->
+                
+                  <li><a href="#">Product</a></li>
+                  <li><a href="#">Product</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Contact</a></li>
+              <button class="btn ham-btn">Login</button>
+            </ul>
+          </div>
             <h3>Brandname</h3>
           </div>
+        
+        <!---------------------hamburger-------------------------->
+          
           
           <div class="navbar">
             <ul class="nav-list">

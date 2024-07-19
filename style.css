@@ -67,12 +67,12 @@ body {
   padding-top: 10px;
 }
 
-.main-navbar {
+.main-navbar  .brandname h3{
   font-size: 24px;
   font-weight: 700;
   text-align: left;
   color: var(--primary-colour);
-  /* padding: 0px 85px;*/
+  padding: 0px 0px 0px 8px;
 }
 
 .main-navbar .navbar {
@@ -292,9 +292,156 @@ body {
 }
 /* hamburger */
 /* first-hamburger */
-.ham-box{
-  width: 20px;
+
+
+body {
+  font-family: Arial, sans-serif;
 }
+
+.hamburger-box {
+  position: relative;
+  visibility: hidden;
+}
+
+.hamburger {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.hamburger i {
+  transition: transform 0.3s ease;
+}
+
+.ham-atv {
+  display: none;
+}
+
+#ham:checked ~ .hamburger .ham-atv {
+  display: none;
+}
+
+#ham:checked ~ .hamburger .ham-n-atv {
+  display: inline;
+  color: white;
+}
+
+#ham:not(:checked) ~ .hamburger .ham-atv {
+  display: inline;
+  color: white;
+}
+
+#ham:not(:checked) ~ .hamburger .ham-n-atv {
+  display: none;
+}
+.hamburger-box input{
+  display: none;
+}
+
+.ham-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  background:var(--seventh-color);
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+#ham:checked ~ .ham-items {
+  display: flex;
+}
+
+.ham-items li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.ham-items li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.ham-items li input[type="checkbox"] {
+  display: none;
+}
+
+.ham-items li label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sub-ham-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  flex-direction: column;
+  background: #e9e9e9;
+  border: 1px solid #ccc;
+  margin-left: 20px;
+}
+
+#sub-ham:checked ~ .sub-ham-items {
+  display: flex;
+}
+
+.sub-sub-ham-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  flex-direction: column;
+  background: #e0e0e0;
+  border: 1px solid #ccc;
+  margin-left: 20px;
+}
+
+#sub-sub-ham:checked ~ .sub-sub-ham-items {
+  display: flex;
+}
+
+.ham-btn {
+  padding: 10px;
+  border: none;
+  background: #007BFF;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+  transition: background 0.3s ease;
+}
+
+.ham-btn:hover {
+  background: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -306,7 +453,6 @@ body {
 /* hamburger */
 .main-navbar ul li {
   list-style-type: none;
-  display: flex;
 }
 
 .main-navbar ul li a {

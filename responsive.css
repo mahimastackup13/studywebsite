@@ -135,18 +135,36 @@
   .nav-list{
     display: none;
   }
-  .nav-btn{
+  .nav-action{
+    gap: 0px;
+  }
+  .nav-list{
+    gap: 0px;
+  }
+  .button {
+    padding: 15px 35px;
+  }
+
+  /* .nav-btn{
     display: none;
   }
-  
+  */
 }
 @media screen and (max-width: 800px) {
   .promo-details h2 {
     width: 100%;
     text-align: center;
     align-items: center;
+  } 
+  .hamburger-box{
+    display: block;
   }
-
+  .hamburger-box .nav-btn{
+    display: flex;
+  }
+  .hamburger-box{
+    visibility: visible;
+  }
   .main-navbar .navbar ul {
     display: none;
   }
@@ -206,6 +224,9 @@
 
   .footer-links {
     row-gap: 30px;
+  }
+  .hamburger-box{
+    visibility: visible;
   }
 }
 
